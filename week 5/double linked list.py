@@ -9,7 +9,6 @@ class List(object):
       self.head=None
       self.tail=None
   def insert(self,n,x):
-      #Not actually perfect: how do we prepend to an existing list?
       if n!=None:
           x.next=n.next
           n.next=x
